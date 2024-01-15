@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"  # Adjust this if you have a build script
-  functions = "functions"    # Directory where serverless functions are located
+  command = "npm run build"
+  functions = "functions"
 
 [dev]
-  functions = "functions"    # Directory for local development of serverless functions
+  functions = "functions"
 
 [[redirects]]
   from = "/*"
