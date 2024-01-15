@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"  # Adjust this if you have a build script
+  functions = "functions"    # Directory where serverless functions are located
+
+[dev]
+  functions = "functions"    # Directory for local development of serverless functions
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
